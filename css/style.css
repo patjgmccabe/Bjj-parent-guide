@@ -551,8 +551,8 @@ footer a:hover { text-decoration: underline; }
 .stripe-explainer { background: #f2f2f2; border-radius: 14px; padding: 1.5rem; margin-bottom: 2.5rem; }
 .stripe-explainer h2 { font-size: 1.3rem; color: #111; margin-bottom: .75rem; }
 .stripe-explainer p { font-family: 'Inter', sans-serif; font-size: .9rem; color: #555; line-height: 1.65; margin-bottom: .75rem; }
-.stripe-demo { display: flex; align-items: center; gap: .5rem; margin-top: 1rem; }
-.stripe-belt { width: 80px; height: 20px; background: #f0f0f0; border: 1.5px solid #ccc; border-radius: 4px; position: relative; }
+.stripe-demo { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; margin-top: 1rem; }
+.stripe-belt { width: 80px; height: 20px; background: #fff; border: 1.5px solid #bbb; border-radius: 4px; position: relative; flex-shrink: 0; }
 .stripe { position: absolute; right: 0; top: 0; width: 10px; height: 100%; background: #1a1a1a; border-radius: 0 3px 3px 0; }
 .stripe-2 { right: 11px; }
 .stripe-3 { right: 22px; }
